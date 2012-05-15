@@ -1,0 +1,16 @@
+------------------------------------------------------------------------------------------------
+A collection of utilities for an easier and smarter approach to openerp orm and xmlrpc resources
+------------------------------------------------------------------------------------------------
+
+MODULES:
+
+orm.py
+------
+Contains class OsvMixin, a mixin class for osv.osv objects which provides "shortcuts" methods to access data
+in a quicker way.
+
+rpc.py
+------
+Provides a Connection class to estabilish an xmlrpc session with the openerp server instance and a set of methods
+to query, update and create objects.
+
